@@ -1,5 +1,0 @@
-  [1m[36mUser Exists? (1.8ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = 'OK@email.com' LIMIT 1[0m
-  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
-  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = 'OK@email.com' LIMIT 1[0m
-  [1m[36mUser Create (16.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('Pham Van OK', 'ok@email.com', '2021-06-18 05:44:53.726883', '2021-06-18 05:44:53.726883', '$2a$12$l7zeFKoX/q3vYSlG1Use.O.hv07yLjukdPvJ24QDYxLx0AkIvDX5i')[0m
-  [1m[36mTRANSACTION (5.5ms)[0m  [1m[35mCOMMIT[0m
