@@ -1,0 +1,8 @@
+<div class="center jumbotron">
+  <h1><%= t "welcome" %></h1>
+  <%= l Time.now, format: :long %>
+  <h2>
+    <%=raw t "homepage" %>
+  </h2>
+  <%= link_to t("signup"), "#", class: "btn btn-lg btn-primary" %>
+</div>
