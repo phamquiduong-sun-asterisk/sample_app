@@ -15,6 +15,9 @@ gem "bootstrap-sass", "~> 3.4", ">= 3.4.1"
 gem "rails-i18n", "~> 6.0"
 gem "bcrypt", "~> 3.1", ">= 3.1.16"
 gem "config"
+gem "faker", "~> 2.18"
+gem "will_paginate", "3.1.8"
+gem "bootstrap-will_paginate", "1.0.0"
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
