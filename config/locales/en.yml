@@ -30,3 +30,5 @@ en:
   settings: "Settings"
   log_out: "Log out"
   log_in: "Log in"
+  remember_me: "Remember me on this computer"
+  new_user: "Don't have account? "
