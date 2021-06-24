@@ -1,3 +1,7 @@
 user:
   email:
     max: 50
+  password:
+    min: 6
+users:
+  per_page: 10
